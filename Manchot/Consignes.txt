@@ -1,0 +1,9 @@
+Compiler les fichiers avec la commande "gcc main.c actions.c axes.c init.c lumiere.c switch_blend.c  switch_light.c VM_init.c -lm -lGL -lGLU -lglut -o Manchot".
+
+Une fois le test lancé avec la commande "./Manchot", appuyer sur la touche "b" et il est possible de changer l'angle de la caméra en utilisant la souris.
+
+Il est possible d'observer un manchot (Mumble) qui danse le Moon Walk d'un côté et un autre ayant la capacité de nager dans les airs (étant donné que les manchots ne volent pas, excepté le grand manchot qui est maintenant éteint (RIP)).
+
+Afin de deplacer le manchot principal (Pingu), il faut utiliser la touche "z" pour le faire avancer, et la touche "Z" pour le faire reculer. Il est possible de le faire tourner sur la gauche avec la touche "s", et sur la droite avec la touche "S". Lorsqu'il avance, il va balancer ses bras afin de garder de l'équilibre. Ses bras peuvent être bougées avec une limite physique. Lever l'aile gauche avec "a", la baisser avec "A". Lever l'aile droite avec "e" et la baisser avec "E". Pour lever ou baisser les deux ailes simultanément, utiliser respectivement les touches "r" et "R".
+
+Pingu ne peut pas se déplacer hors de la banquise.
